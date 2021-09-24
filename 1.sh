@@ -1,2 +1,2 @@
  #/bin/bash
-java -jar logisim.jar ./mytest/TruthTableTest.circ -tty table
+java -jar logisim.jar ./mytest/BoolExprTest.circ -tty table
