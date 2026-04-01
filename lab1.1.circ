@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.16.1.4.exe" version="1.0">
+<project source="2.16.2.0.jar" version="1.0">
 This file is intended to be loaded by Logisim http://logisim.altervista.org
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -227,12 +227,78 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(360,100)" to="(520,100)"/>
     <wire from="(520,100)" to="(520,140)"/>
     <wire from="(10,140)" to="(520,140)"/>
-    <comp lib="7" loc="(46,29)" name="Text">
-      <a name="text" val="输入引脚"/>
-      <a name="font" val="Dialog plain 12"/>
+    <wire from="(280,260)" to="(360,260)"/>
+    <wire from="(280,320)" to="(360,320)"/>
+    <wire from="(360,270)" to="(360,320)"/>
+    <wire from="(280,210)" to="(360,210)"/>
+    <wire from="(360,210)" to="(360,250)"/>
+    <wire from="(390,260)" to="(450,260)"/>
+    <wire from="(170,270)" to="(250,270)"/>
+    <wire from="(170,200)" to="(170,270)"/>
+    <wire from="(170,200)" to="(250,200)"/>
+    <wire from="(150,200)" to="(170,200)"/>
+    <wire from="(190,250)" to="(190,330)"/>
+    <wire from="(190,330)" to="(250,330)"/>
+    <wire from="(190,250)" to="(250,250)"/>
+    <wire from="(150,250)" to="(190,250)"/>
+    <wire from="(210,220)" to="(210,310)"/>
+    <wire from="(210,220)" to="(250,220)"/>
+    <wire from="(150,310)" to="(210,310)"/>
+    <wire from="(210,310)" to="(250,310)"/>
+    <comp lib="1" loc="(280,210)" name="AND Gate">
+      <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="7" loc="(189,126)" name="Text">
       <a name="text" val="请勿增加、删除引脚，用隧道标签构建电路，"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(394,126)" name="Text">
+      <a name="text" val="请勿更改电路封装外观。"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(110,50)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="X"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(390,260)" name="OR Gate">
+      <a name="inputs" val="3"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(280,260)" name="AND Gate">
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(430,50)" name="Tunnel">
+      <a name="label" val="F"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(190,50)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Y"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(150,200)" name="Tunnel">
+      <a name="label" val="X"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(235,166)" name="Text">
+      <a name="text" val="3输入多数表决器电路"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(150,250)" name="Tunnel">
+      <a name="label" val="Y"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(320,50)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Z"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(280,320)" name="AND Gate">
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="7" loc="(46,29)" name="Text">
+      <a name="text" val="输入引脚"/>
       <a name="font" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(450,260)" name="Tunnel">
@@ -240,23 +306,20 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="F"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(110,50)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="X"/>
+    <comp lib="7" loc="(402,31)" name="Text">
+      <a name="text" val="输出引脚"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(170,50)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y"/>
+      <a name="labelloc" val="west"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(300,50)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Z"/>
       <a name="labelloc" val="west"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(150,250)" name="Tunnel">
-      <a name="label" val="Y"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(150,310)" name="Tunnel">
-      <a name="label" val="Z"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(470,50)" name="Pin">
@@ -266,40 +329,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="7" loc="(402,31)" name="Text">
-      <a name="text" val="输出引脚"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(150,200)" name="Tunnel">
-      <a name="label" val="X"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(430,50)" name="Tunnel">
-      <a name="label" val="F"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(170,50)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Y"/>
-      <a name="labelloc" val="west"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="7" loc="(394,126)" name="Text">
-      <a name="text" val="请勿更改电路封装外观。"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(320,50)" name="Tunnel">
-      <a name="facing" val="west"/>
+    <comp lib="0" loc="(150,310)" name="Tunnel">
       <a name="label" val="Z"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="7" loc="(235,166)" name="Text">
-      <a name="text" val="3输入多数表决器电路"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(190,50)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Y"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(90,50)" name="Pin">
