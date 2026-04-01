@@ -289,9 +289,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="X"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(310,290)" name="Transistor">
-      <a name="facing" val="south"/>
-    </comp>
     <comp lib="0" loc="(210,210)" name="Power"/>
     <comp lib="0" loc="(110,50)" name="Tunnel">
       <a name="facing" val="west"/>
@@ -316,6 +313,9 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     </comp>
     <comp lib="7" loc="(361,166)" name="Text">
       <a name="text" val="提示：使用三极管组件实现或门电路，禁止直接使用逻辑门组件。"/>
+    </comp>
+    <comp lib="0" loc="(310,250)" name="Transistor">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(270,440)" name="Transistor">
       <a name="type" val="n"/>
