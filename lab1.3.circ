@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.16.1.4.exe" version="1.0">
+<project source="2.16.2.0.jar" version="1.0">
 This file is intended to be loaded by Logisim http://logisim.altervista.org
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -117,60 +117,22 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(50,100)" to="(560,100)"/>
     <wire from="(50,20)" to="(400,20)"/>
     <wire from="(440,40)" to="(490,40)"/>
-    <comp lib="0" loc="(340,40)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="S"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="0" loc="(140,40)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="D0"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="7" loc="(325,92)" name="Text">
-      <a name="text" val="请勿修改引脚名称及电路封装外观"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(370,40)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="S"/>
-    </comp>
-    <comp lib="0" loc="(440,40)" name="Tunnel">
-      <a name="label" val="Y"/>
-    </comp>
-    <comp lib="0" loc="(180,180)" name="Tunnel">
-      <a name="label" val="D0"/>
-    </comp>
-    <comp lib="0" loc="(420,230)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Y"/>
-    </comp>
-    <comp lib="0" loc="(240,40)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="D1"/>
-      <a name="labelloc" val="west"/>
-    </comp>
+    <wire from="(180,180)" to="(290,180)"/>
+    <wire from="(360,190)" to="(360,220)"/>
+    <wire from="(320,190)" to="(360,190)"/>
+    <wire from="(360,240)" to="(360,270)"/>
+    <wire from="(320,270)" to="(360,270)"/>
+    <wire from="(390,230)" to="(420,230)"/>
+    <wire from="(180,260)" to="(290,260)"/>
+    <wire from="(260,200)" to="(260,300)"/>
+    <wire from="(240,300)" to="(260,300)"/>
+    <wire from="(260,200)" to="(290,200)"/>
+    <wire from="(200,280)" to="(200,300)"/>
+    <wire from="(180,300)" to="(200,300)"/>
+    <wire from="(200,300)" to="(220,300)"/>
+    <wire from="(200,280)" to="(290,280)"/>
     <comp lib="0" loc="(260,40)" name="Tunnel">
       <a name="facing" val="west"/>
-      <a name="label" val="D1"/>
-    </comp>
-    <comp lib="7" loc="(463,64)" name="Text">
-      <a name="text" val="输出引脚"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="7" loc="(327,121)" name="Text">
-      <a name="text" val="提示：使用独立逻辑门实现二选一多路选择器，禁止直接使用选择器组件。"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="7" loc="(248,65)" name="Text">
-      <a name="text" val="输入引脚"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(150,40)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="D0"/>
-    </comp>
-    <comp lib="0" loc="(180,260)" name="Tunnel">
       <a name="label" val="D1"/>
     </comp>
     <comp lib="0" loc="(490,40)" name="Pin">
@@ -179,8 +141,64 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="Y"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(420,230)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Y"/>
+    </comp>
+    <comp lib="7" loc="(327,121)" name="Text">
+      <a name="text" val="提示：使用独立逻辑门实现二选一多路选择器，禁止直接使用选择器组件。"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(240,40)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="D1"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="1" loc="(240,300)" name="NOT Gate"/>
+    <comp lib="7" loc="(325,92)" name="Text">
+      <a name="text" val="请勿修改引脚名称及电路封装外观"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(180,180)" name="Tunnel">
+      <a name="label" val="D0"/>
+    </comp>
+    <comp lib="0" loc="(340,40)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="S"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="7" loc="(248,65)" name="Text">
+      <a name="text" val="输入引脚"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(370,40)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="S"/>
+    </comp>
+    <comp lib="0" loc="(180,260)" name="Tunnel">
+      <a name="label" val="D1"/>
+    </comp>
+    <comp lib="0" loc="(440,40)" name="Tunnel">
+      <a name="label" val="Y"/>
+    </comp>
+    <comp lib="7" loc="(463,64)" name="Text">
+      <a name="text" val="输出引脚"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(140,40)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="D0"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="0" loc="(150,40)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="D0"/>
+    </comp>
+    <comp lib="1" loc="(320,190)" name="AND Gate"/>
     <comp lib="0" loc="(180,300)" name="Tunnel">
       <a name="label" val="S"/>
     </comp>
+    <comp lib="1" loc="(390,230)" name="OR Gate"/>
+    <comp lib="1" loc="(320,270)" name="AND Gate"/>
   </circuit>
 </project>
