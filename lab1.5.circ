@@ -131,10 +131,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(210,260)" to="(240,260)"/>
     <wire from="(210,260)" to="(210,290)"/>
     <wire from="(280,250)" to="(320,250)"/>
-    <wire from="(150,240)" to="(190,240)"/>
-    <wire from="(150,240)" to="(150,360)"/>
-    <wire from="(110,360)" to="(150,360)"/>
-    <wire from="(150,360)" to="(190,360)"/>
+    <wire from="(110,360)" to="(190,360)"/>
+    <wire from="(190,240)" to="(190,310)"/>
     <comp lib="7" loc="(91,73)" name="Text">
       <a name="text" val="输入引脚"/>
       <a name="font" val="Dialog plain 12"/>
