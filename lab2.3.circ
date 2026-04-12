@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.16.2.0.jar" version="1.0">
-This file is intended to be loaded by Logisim http://logisim.altervista.org
-<lib desc="#Wiring" name="0">
+<project source="2.16.1.3.jar" version="1.0">
+  This file is intended to be loaded by Logisim http://logisim.altervista.org
+
+  <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
     </tool>
@@ -138,190 +139,82 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(380,80)" to="(710,80)"/>
     <wire from="(710,80)" to="(710,110)"/>
     <wire from="(20,110)" to="(710,110)"/>
-    <wire from="(170,390)" to="(170,420)"/>
-    <wire from="(190,390)" to="(190,470)"/>
-    <wire from="(210,390)" to="(210,400)"/>
-    <wire from="(170,420)" to="(480,420)"/>
-    <wire from="(190,470)" to="(480,470)"/>
-    <wire from="(200,350)" to="(230,350)"/>
-    <wire from="(230,350)" to="(230,400)"/>
-    <wire from="(230,400)" to="(290,400)"/>
-    <wire from="(290,390)" to="(290,400)"/>
-    <wire from="(280,350)" to="(310,350)"/>
-    <wire from="(310,350)" to="(310,400)"/>
-    <wire from="(370,390)" to="(370,400)"/>
-    <wire from="(390,350)" to="(390,400)"/>
-    <wire from="(360,350)" to="(390,350)"/>
-    <wire from="(390,400)" to="(450,400)"/>
-    <wire from="(450,390)" to="(450,400)"/>
-    <wire from="(250,390)" to="(250,430)"/>
-    <wire from="(250,430)" to="(480,430)"/>
-    <wire from="(270,390)" to="(270,480)"/>
-    <wire from="(270,480)" to="(480,480)"/>
-    <wire from="(330,390)" to="(330,440)"/>
-    <wire from="(330,440)" to="(480,440)"/>
-    <wire from="(410,390)" to="(410,450)"/>
-    <wire from="(410,450)" to="(480,450)"/>
-    <wire from="(430,390)" to="(430,500)"/>
-    <wire from="(430,500)" to="(480,500)"/>
-    <wire from="(440,350)" to="(480,350)"/>
-    <wire from="(180,290)" to="(460,290)"/>
-    <wire from="(180,290)" to="(180,350)"/>
-    <wire from="(260,300)" to="(260,350)"/>
-    <wire from="(260,300)" to="(460,300)"/>
-    <wire from="(340,310)" to="(340,350)"/>
-    <wire from="(340,310)" to="(460,310)"/>
-    <wire from="(420,320)" to="(420,350)"/>
-    <wire from="(420,320)" to="(460,320)"/>
-    <wire from="(310,400)" to="(370,400)"/>
-    <wire from="(350,390)" to="(350,490)"/>
-    <wire from="(350,490)" to="(480,490)"/>
-    <wire from="(160,480)" to="(270,480)"/>
-    <wire from="(160,490)" to="(350,490)"/>
-    <wire from="(160,500)" to="(430,500)"/>
-    <wire from="(160,470)" to="(190,470)"/>
-    <wire from="(160,450)" to="(410,450)"/>
-    <wire from="(160,430)" to="(250,430)"/>
-    <wire from="(160,440)" to="(330,440)"/>
-    <wire from="(160,420)" to="(170,420)"/>
-    <wire from="(290,240)" to="(290,250)"/>
-    <wire from="(380,250)" to="(480,250)"/>
-    <wire from="(380,240)" to="(380,250)"/>
-    <wire from="(480,250)" to="(480,310)"/>
-    <wire from="(130,490)" to="(140,490)"/>
-    <wire from="(130,250)" to="(130,490)"/>
-    <wire from="(130,250)" to="(290,250)"/>
-    <wire from="(50,500)" to="(90,500)"/>
-    <wire from="(50,440)" to="(60,440)"/>
-    <wire from="(60,440)" to="(140,440)"/>
-    <wire from="(60,240)" to="(200,240)"/>
-    <wire from="(60,240)" to="(60,440)"/>
-    <wire from="(70,400)" to="(210,400)"/>
-    <wire from="(70,460)" to="(70,470)"/>
-    <wire from="(70,470)" to="(70,480)"/>
-    <wire from="(70,480)" to="(70,490)"/>
-    <wire from="(50,400)" to="(70,400)"/>
-    <wire from="(70,400)" to="(70,460)"/>
-    <comp lib="6" loc="(380,240)" name="Hex Digit Display"/>
-    <comp lib="1" loc="(130,490)" name="XOR Gate">
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(120,60)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Cin"/>
-    </comp>
-    <comp lib="0" loc="(610,30)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="label" val="Cout"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="0" loc="(100,60)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Cin"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="7" loc="(225,66)" name="Text">
-      <a name="text" val="输入引脚"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(260,30)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Y"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="7" loc="(400,102)" name="Text">
-      <a name="text" val="请勿修改引脚名称、电路名称及电路封装外观"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp loc="(200,350)" name="FA">
-      <a name="facing" val="north"/>
-      <a name="label" val="FA0"/>
-    </comp>
-    <comp lib="0" loc="(480,350)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Cout"/>
-    </comp>
-    <comp lib="7" loc="(342,217)" name="Text">
-      <a name="text" val="="/>
-      <a name="font" val="Dialog bold 22"/>
-    </comp>
-    <comp lib="0" loc="(120,30)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="X"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="0" loc="(650,30)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Cout"/>
-    </comp>
-    <comp lib="0" loc="(50,500)" name="Tunnel">
-      <a name="width" val="4"/>
-      <a name="label" val="操作数y"/>
-    </comp>
-    <comp lib="0" loc="(480,310)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="0" loc="(480,310)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="label" val="SUM"/>
-    </comp>
-    <comp lib="6" loc="(200,240)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(140,440)" name="Splitter">
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="0" loc="(140,30)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="label" val="操作数x"/>
-    </comp>
-    <comp loc="(360,350)" name="FA">
-      <a name="facing" val="north"/>
-      <a name="label" val="FA2"/>
-    </comp>
-    <comp lib="0" loc="(280,30)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="label" val="操作数y"/>
-    </comp>
-    <comp lib="7" loc="(361,137)" name="Text">
-      <a name="text" val="提示：使用独立逻辑门及全加器FA子电路实现4位二进制数加减法器，禁止直接使用加减法器组件。"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="7" loc="(253,217)" name="Text">
-      <a name="text" val="+"/>
-      <a name="font" val="Dialog bold 22"/>
-    </comp>
-    <comp lib="6" loc="(290,240)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(500,30)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="label" val="SUM"/>
-    </comp>
-    <comp lib="0" loc="(90,480)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="0" loc="(50,440)" name="Tunnel">
-      <a name="width" val="4"/>
-      <a name="label" val="操作数x"/>
-    </comp>
-    <comp lib="0" loc="(140,490)" name="Splitter">
-      <a name="appear" val="center"/>
-    </comp>
+    <wire from="(170,490)" to="(360,490)"/>
+    <wire from="(440,500)" to="(490,500)"/>
+    <wire from="(180,420)" to="(490,420)"/>
+    <wire from="(70,240)" to="(70,440)"/>
+    <wire from="(80,460)" to="(80,470)"/>
+    <wire from="(80,480)" to="(80,490)"/>
+    <wire from="(350,310)" to="(470,310)"/>
+    <wire from="(300,240)" to="(300,250)"/>
+    <wire from="(170,480)" to="(280,480)"/>
+    <wire from="(200,390)" to="(200,470)"/>
+    <wire from="(390,250)" to="(490,250)"/>
+    <wire from="(260,430)" to="(490,430)"/>
+    <wire from="(280,390)" to="(280,480)"/>
+    <wire from="(430,320)" to="(470,320)"/>
+    <wire from="(170,470)" to="(200,470)"/>
+    <wire from="(210,350)" to="(240,350)"/>
+    <wire from="(360,390)" to="(360,490)"/>
+    <wire from="(140,250)" to="(300,250)"/>
+    <wire from="(290,350)" to="(320,350)"/>
+    <wire from="(370,350)" to="(400,350)"/>
+    <wire from="(440,390)" to="(440,500)"/>
+    <wire from="(350,310)" to="(350,350)"/>
+    <wire from="(340,440)" to="(490,440)"/>
+    <wire from="(140,250)" to="(140,490)"/>
+    <wire from="(70,240)" to="(210,240)"/>
+    <wire from="(60,440)" to="(70,440)"/>
+    <wire from="(490,250)" to="(490,310)"/>
+    <wire from="(420,450)" to="(490,450)"/>
+    <wire from="(80,400)" to="(80,460)"/>
+    <wire from="(190,290)" to="(190,350)"/>
+    <wire from="(320,400)" to="(380,400)"/>
+    <wire from="(400,400)" to="(460,400)"/>
+    <wire from="(170,450)" to="(420,450)"/>
+    <wire from="(240,400)" to="(300,400)"/>
+    <wire from="(220,390)" to="(220,400)"/>
+    <wire from="(80,470)" to="(80,480)"/>
+    <wire from="(390,240)" to="(390,250)"/>
+    <wire from="(460,390)" to="(460,400)"/>
+    <wire from="(300,390)" to="(300,400)"/>
+    <wire from="(380,390)" to="(380,400)"/>
+    <wire from="(170,440)" to="(340,440)"/>
+    <wire from="(430,320)" to="(430,350)"/>
+    <wire from="(60,500)" to="(100,500)"/>
+    <wire from="(180,390)" to="(180,420)"/>
+    <wire from="(200,470)" to="(490,470)"/>
+    <wire from="(450,350)" to="(490,350)"/>
+    <wire from="(170,430)" to="(260,430)"/>
+    <wire from="(280,480)" to="(490,480)"/>
+    <wire from="(190,290)" to="(470,290)"/>
+    <wire from="(260,390)" to="(260,430)"/>
+    <wire from="(60,400)" to="(80,400)"/>
+    <wire from="(170,500)" to="(440,500)"/>
+    <wire from="(240,350)" to="(240,400)"/>
+    <wire from="(70,440)" to="(150,440)"/>
+    <wire from="(400,350)" to="(400,400)"/>
+    <wire from="(170,420)" to="(180,420)"/>
+    <wire from="(140,490)" to="(150,490)"/>
+    <wire from="(80,400)" to="(220,400)"/>
+    <wire from="(270,300)" to="(270,350)"/>
+    <wire from="(320,350)" to="(320,400)"/>
+    <wire from="(340,390)" to="(340,440)"/>
+    <wire from="(420,390)" to="(420,450)"/>
+    <wire from="(360,490)" to="(490,490)"/>
+    <wire from="(270,300)" to="(470,300)"/>
     <comp lib="7" loc="(553,70)" name="Text">
       <a name="text" val="输出引脚"/>
       <a name="font" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(50,400)" name="Tunnel">
-      <a name="label" val="Cin"/>
+    <comp lib="6" loc="(390,240)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(100,480)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="appear" val="center"/>
     </comp>
-    <comp loc="(280,350)" name="FA">
-      <a name="facing" val="north"/>
-      <a name="label" val="FA1"/>
+    <comp lib="7" loc="(400,102)" name="Text">
+      <a name="text" val="请勿修改引脚名称、电路名称及电路封装外观"/>
+      <a name="font" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(470,30)" name="Pin">
       <a name="output" val="true"/>
@@ -329,9 +222,117 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="F"/>
       <a name="labelloc" val="west"/>
     </comp>
-    <comp loc="(440,350)" name="FA">
+    <comp lib="0" loc="(260,30)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="7" loc="(263,217)" name="Text">
+      <a name="text" val="+"/>
+      <a name="font" val="Dialog bold 22"/>
+    </comp>
+    <comp lib="6" loc="(300,240)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(210,240)" name="Hex Digit Display"/>
+    <comp loc="(290,350)" name="FA">
+      <a name="facing" val="north"/>
+      <a name="label" val="FA1"/>
+    </comp>
+    <comp lib="7" loc="(361,137)" name="Text">
+      <a name="text" val="提示：使用独立逻辑门及全加器FA子电路实现4位二进制数加减法器，禁止直接使用加减法器组件。"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp loc="(370,350)" name="FA">
+      <a name="facing" val="north"/>
+      <a name="label" val="FA2"/>
+    </comp>
+    <comp lib="0" loc="(60,500)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="操作数y"/>
+    </comp>
+    <comp lib="0" loc="(140,30)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="label" val="操作数x"/>
+    </comp>
+    <comp lib="0" loc="(490,310)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="label" val="SUM"/>
+    </comp>
+    <comp lib="0" loc="(490,310)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(500,30)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="label" val="SUM"/>
+    </comp>
+    <comp lib="0" loc="(60,440)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="操作数x"/>
+    </comp>
+    <comp lib="0" loc="(120,60)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Cin"/>
+    </comp>
+    <comp lib="7" loc="(352,217)" name="Text">
+      <a name="text" val="="/>
+      <a name="font" val="Dialog bold 22"/>
+    </comp>
+    <comp lib="0" loc="(60,400)" name="Tunnel">
+      <a name="label" val="Cin"/>
+    </comp>
+    <comp lib="7" loc="(225,66)" name="Text">
+      <a name="text" val="输入引脚"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(120,30)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="0" loc="(150,490)" name="Splitter">
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(490,350)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Cout"/>
+    </comp>
+    <comp lib="0" loc="(100,60)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cin"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="0" loc="(650,30)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Cout"/>
+    </comp>
+    <comp loc="(210,350)" name="FA">
+      <a name="facing" val="north"/>
+      <a name="label" val="FA0"/>
+    </comp>
+    <comp lib="0" loc="(150,440)" name="Splitter">
+      <a name="appear" val="center"/>
+    </comp>
+    <comp loc="(450,350)" name="FA">
       <a name="facing" val="north"/>
       <a name="label" val="FA3"/>
+    </comp>
+    <comp lib="0" loc="(610,30)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="label" val="Cout"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="0" loc="(280,30)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="label" val="操作数y"/>
+    </comp>
+    <comp lib="1" loc="(140,490)" name="XOR Gate">
+      <a name="width" val="4"/>
     </comp>
   </circuit>
   <circuit name="FA">
@@ -382,25 +383,27 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(240,310)" to="(290,310)"/>
     <wire from="(240,200)" to="(240,310)"/>
     <wire from="(240,310)" to="(240,370)"/>
+    <comp lib="7" loc="(275,412)" name="Text">
+      <a name="text" val="全加器"/>
+      <a name="font" val="Dialog bold 16"/>
+    </comp>
+    <comp lib="1" loc="(340,170)" name="XOR Gate"/>
     <comp lib="1" loc="(320,360)" name="AND Gate"/>
-    <comp lib="1" loc="(410,190)" name="XOR Gate"/>
-    <comp lib="1" loc="(320,300)" name="AND Gate"/>
+    <comp lib="0" loc="(150,230)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="0" loc="(150,290)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+      <a name="labelloc" val="west"/>
+    </comp>
     <comp lib="0" loc="(440,190)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="F"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(340,170)" name="XOR Gate"/>
-    <comp lib="0" loc="(150,370)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Cin"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="0" loc="(150,230)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-      <a name="labelloc" val="west"/>
     </comp>
     <comp lib="0" loc="(440,300)" name="Pin">
       <a name="facing" val="west"/>
@@ -408,21 +411,19 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="Cout"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="7" loc="(275,412)" name="Text">
-      <a name="text" val="全加器"/>
-      <a name="font" val="Dialog bold 16"/>
+    <comp lib="1" loc="(410,190)" name="XOR Gate"/>
+    <comp lib="1" loc="(320,240)" name="AND Gate"/>
+    <comp lib="1" loc="(410,300)" name="OR Gate">
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="7" loc="(171,465)" name="Text">
       <a name="font" val="Dialog bold 16"/>
     </comp>
-    <comp lib="1" loc="(410,300)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(320,240)" name="AND Gate"/>
-    <comp lib="0" loc="(150,290)" name="Pin">
+    <comp lib="0" loc="(150,370)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
+      <a name="label" val="Cin"/>
       <a name="labelloc" val="west"/>
     </comp>
+    <comp lib="1" loc="(320,300)" name="AND Gate"/>
   </circuit>
 </project>
