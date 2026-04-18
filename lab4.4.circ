@@ -359,9 +359,9 @@
     <wire from="(120,460)" to="(520,460)"/>
     <wire from="(140,330)" to="(150,330)"/>
     <wire from="(250,280)" to="(260,280)"/>
-    <wire from="(120,350)" to="(130,350)"/>
     <wire from="(510,340)" to="(510,400)"/>
     <wire from="(580,330)" to="(590,330)"/>
+    <wire from="(100,350)" to="(130,350)"/>
     <comp lib="3" loc="(150,330)" name="Multiplexer">
       <a name="enable" val="false"/>
     </comp>
@@ -1196,7 +1196,6 @@
       <a name="bit30" val="1"/>
       <a name="bit31" val="1"/>
     </comp>
-    <comp lib="1" loc="(120,350)" name="Buffer"/>
     <comp lib="0" loc="(200,60)" name="Pin">
       <a name="facing" val="south"/>
       <a name="width" val="5"/>
