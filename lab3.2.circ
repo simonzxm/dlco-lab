@@ -321,7 +321,6 @@
     <wire from="(380,370)" to="(380,460)"/>
     <wire from="(380,280)" to="(390,280)"/>
     <wire from="(380,280)" to="(380,370)"/>
-    <wire from="(380,260)" to="(380,280)"/>
     <wire from="(450,280)" to="(450,300)"/>
     <wire from="(450,370)" to="(450,390)"/>
     <wire from="(450,460)" to="(450,480)"/>
@@ -347,13 +346,7 @@
     <wire from="(340,480)" to="(350,480)"/>
     <wire from="(340,590)" to="(350,590)"/>
     <wire from="(340,300)" to="(340,410)"/>
-    <wire from="(320,420)" to="(350,420)"/>
-    <wire from="(320,330)" to="(350,330)"/>
     <wire from="(340,480)" to="(340,590)"/>
-    <wire from="(320,510)" to="(350,510)"/>
-    <wire from="(320,600)" to="(350,600)"/>
-    <wire from="(290,320)" to="(350,320)"/>
-    <wire from="(290,580)" to="(350,580)"/>
     <wire from="(420,340)" to="(430,340)"/>
     <wire from="(430,340)" to="(430,430)"/>
     <wire from="(420,430)" to="(430,430)"/>
@@ -398,13 +391,13 @@
       <a name="label" val="RIN"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(380,260)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="CLK"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
     <comp lib="0" loc="(210,100)" name="Tunnel">
       <a name="label" val="LIN"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(380,280)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="CLK"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="7" loc="(581,118)" name="Text">
@@ -437,9 +430,7 @@
       <a name="label" val="D0"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="5" loc="(450,460)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
+    <comp lib="5" loc="(450,460)" name="D Flip-Flop"/>
     <comp lib="0" loc="(450,610)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="label" val="CLR_L"/>
@@ -479,15 +470,15 @@
       <a name="label" val="S0"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="5" loc="(450,280)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="0" loc="(320,600)" name="Tunnel">
+    <comp lib="5" loc="(450,280)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(350,600)" name="Tunnel">
       <a name="label" val="D0"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="5" loc="(450,550)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
+    <comp lib="5" loc="(450,550)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(350,510)" name="Tunnel">
+      <a name="label" val="D1"/>
+      <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="7" loc="(353,166)" name="Text">
       <a name="text" val="请勿修改引脚名称、电路名称及电路封装外观"/>
@@ -508,16 +499,8 @@
       <a name="label" val="Q1"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(320,420)" name="Tunnel">
+    <comp lib="0" loc="(350,420)" name="Tunnel">
       <a name="label" val="D2"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(290,580)" name="Tunnel">
-      <a name="label" val="LIN"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(320,330)" name="Tunnel">
-      <a name="label" val="D3"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="3" loc="(390,320)" name="Multiplexer">
@@ -544,17 +527,13 @@
       <a name="label" val="D1"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(320,510)" name="Tunnel">
-      <a name="label" val="D1"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
     <comp lib="0" loc="(450,460)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="label" val="Q1"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(290,320)" name="Tunnel">
-      <a name="label" val="RIN"/>
+    <comp lib="0" loc="(350,580)" name="Tunnel">
+      <a name="label" val="LIN"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(490,40)" name="Tunnel">
@@ -566,6 +545,14 @@
       <a name="tristate" val="false"/>
       <a name="label" val="D0"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(350,320)" name="Tunnel">
+      <a name="label" val="RIN"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(350,330)" name="Tunnel">
+      <a name="label" val="D3"/>
+      <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="1" loc="(430,610)" name="NOT Gate">
       <a name="facing" val="west"/>
@@ -584,9 +571,7 @@
       <a name="label" val="CLR_L"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="5" loc="(450,370)" name="D Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
+    <comp lib="5" loc="(450,370)" name="D Flip-Flop"/>
     <comp lib="3" loc="(390,590)" name="Multiplexer">
       <a name="select" val="2"/>
       <a name="enable" val="false"/>
