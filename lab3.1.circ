@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.16.1.4.exe" version="1.0">
-This file is intended to be loaded by Logisim http://logisim.altervista.org
-<lib desc="#Wiring" name="0">
+<project source="2.16.1.3.jar" version="1.0">
+  This file is intended to be loaded by Logisim http://logisim.altervista.org
+
+  <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="right"/>
     </tool>
@@ -38,9 +39,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     </tool>
     <tool name="Buffer">
       <a name="width" val="3"/>
-    </tool>
-    <tool name="AND Gate">
-      <a name="width" val="16"/>
     </tool>
     <tool name="NAND Gate">
       <a name="labelfont" val="Dialog plain 12"/>
@@ -306,20 +304,209 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(360,100)" to="(400,100)"/>
     <wire from="(360,40)" to="(400,40)"/>
     <wire from="(80,40)" to="(130,40)"/>
-    <comp lib="0" loc="(640,830)" name="Tunnel">
+    <wire from="(310,610)" to="(310,620)"/>
+    <wire from="(90,530)" to="(280,530)"/>
+    <wire from="(310,430)" to="(310,440)"/>
+    <wire from="(310,550)" to="(310,560)"/>
+    <wire from="(110,230)" to="(350,230)"/>
+    <wire from="(130,640)" to="(130,720)"/>
+    <wire from="(120,580)" to="(120,730)"/>
+    <wire from="(170,480)" to="(170,570)"/>
+    <wire from="(170,380)" to="(210,380)"/>
+    <wire from="(210,300)" to="(250,300)"/>
+    <wire from="(260,370)" to="(260,460)"/>
+    <wire from="(270,420)" to="(270,510)"/>
+    <wire from="(350,500)" to="(350,590)"/>
+    <wire from="(250,390)" to="(280,390)"/>
+    <wire from="(110,650)" to="(140,650)"/>
+    <wire from="(110,320)" to="(200,320)"/>
+    <wire from="(200,580)" to="(420,580)"/>
+    <wire from="(90,740)" to="(180,740)"/>
+    <wire from="(260,370)" to="(280,370)"/>
+    <wire from="(340,450)" to="(360,450)"/>
+    <wire from="(200,280)" to="(200,320)"/>
+    <wire from="(180,700)" to="(180,740)"/>
+    <wire from="(420,540)" to="(420,580)"/>
+    <wire from="(160,550)" to="(180,550)"/>
+    <wire from="(270,510)" to="(280,510)"/>
+    <wire from="(120,580)" to="(200,580)"/>
+    <wire from="(350,590)" to="(360,590)"/>
+    <wire from="(170,570)" to="(180,570)"/>
+    <wire from="(200,280)" to="(210,280)"/>
+    <wire from="(200,320)" to="(210,320)"/>
+    <wire from="(130,720)" to="(200,720)"/>
+    <wire from="(90,620)" to="(280,620)"/>
+    <wire from="(170,660)" to="(170,670)"/>
+    <wire from="(310,520)" to="(310,530)"/>
+    <wire from="(310,640)" to="(310,650)"/>
+    <wire from="(170,570)" to="(170,660)"/>
+    <wire from="(260,460)" to="(260,550)"/>
+    <wire from="(270,510)" to="(270,600)"/>
+    <wire from="(350,230)" to="(350,320)"/>
+    <wire from="(250,480)" to="(280,480)"/>
+    <wire from="(140,460)" to="(140,560)"/>
+    <wire from="(200,670)" to="(420,670)"/>
+    <wire from="(260,460)" to="(280,460)"/>
+    <wire from="(340,540)" to="(360,540)"/>
+    <wire from="(420,630)" to="(420,670)"/>
+    <wire from="(160,640)" to="(180,640)"/>
+    <wire from="(270,600)" to="(280,600)"/>
+    <wire from="(350,320)" to="(360,320)"/>
+    <wire from="(170,660)" to="(180,660)"/>
+    <wire from="(260,310)" to="(260,370)"/>
+    <wire from="(130,490)" to="(200,490)"/>
+    <wire from="(90,350)" to="(280,350)"/>
+    <wire from="(140,710)" to="(200,710)"/>
+    <wire from="(310,370)" to="(310,380)"/>
+    <wire from="(130,490)" to="(130,640)"/>
+    <wire from="(250,270)" to="(250,300)"/>
+    <wire from="(260,550)" to="(260,640)"/>
+    <wire from="(270,600)" to="(270,690)"/>
+    <wire from="(350,320)" to="(350,410)"/>
+    <wire from="(170,380)" to="(170,480)"/>
+    <wire from="(250,570)" to="(280,570)"/>
+    <wire from="(200,400)" to="(420,400)"/>
+    <wire from="(260,550)" to="(280,550)"/>
+    <wire from="(340,630)" to="(360,630)"/>
+    <wire from="(110,640)" to="(130,640)"/>
+    <wire from="(420,360)" to="(420,400)"/>
+    <wire from="(250,300)" to="(270,300)"/>
+    <wire from="(270,330)" to="(280,330)"/>
+    <wire from="(350,410)" to="(360,410)"/>
+    <wire from="(110,490)" to="(110,540)"/>
+    <wire from="(250,310)" to="(260,310)"/>
+    <wire from="(260,640)" to="(260,690)"/>
+    <wire from="(90,700)" to="(160,700)"/>
+    <wire from="(140,400)" to="(140,460)"/>
+    <wire from="(90,440)" to="(280,440)"/>
+    <wire from="(140,400)" to="(200,400)"/>
+    <wire from="(310,340)" to="(310,350)"/>
+    <wire from="(310,460)" to="(310,470)"/>
+    <wire from="(140,560)" to="(140,650)"/>
+    <wire from="(270,300)" to="(270,330)"/>
+    <wire from="(200,670)" to="(200,700)"/>
+    <wire from="(270,330)" to="(270,420)"/>
+    <wire from="(350,410)" to="(350,500)"/>
+    <wire from="(110,560)" to="(140,560)"/>
+    <wire from="(250,660)" to="(280,660)"/>
+    <wire from="(200,490)" to="(420,490)"/>
+    <wire from="(260,640)" to="(280,640)"/>
+    <wire from="(340,360)" to="(360,360)"/>
+    <wire from="(110,490)" to="(130,490)"/>
+    <wire from="(160,460)" to="(180,460)"/>
+    <wire from="(420,450)" to="(420,490)"/>
+    <wire from="(270,420)" to="(280,420)"/>
+    <wire from="(120,730)" to="(200,730)"/>
+    <wire from="(350,500)" to="(360,500)"/>
+    <wire from="(110,580)" to="(110,630)"/>
+    <wire from="(170,480)" to="(180,480)"/>
+    <wire from="(110,580)" to="(120,580)"/>
+    <wire from="(140,650)" to="(140,710)"/>
+    <wire from="(90,260)" to="(220,260)"/>
+    <comp lib="0" loc="(420,590)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Q3"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(250,310)" name="AND Gate">
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(70,70)" name="Tunnel">
+      <a name="label" val="D0"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(310,560)" name="AND Gate"/>
+    <comp lib="1" loc="(250,390)" name="XOR Gate">
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(420,320)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Q0"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(250,480)" name="XOR Gate">
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(420,500)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Q2"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(310,470)" name="AND Gate"/>
+    <comp lib="0" loc="(90,740)" name="Tunnel">
+      <a name="label" val="ENT"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(360,100)" name="Tunnel">
+      <a name="label" val="ENT"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(540,100)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="RCO"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(210,650)" name="AND Gate"/>
+    <comp lib="0" loc="(90,260)" name="Tunnel">
+      <a name="label" val="LD"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(310,650)" name="AND Gate"/>
+    <comp lib="1" loc="(160,640)" name="NAND Gate">
+      <a name="inputs" val="3"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="0" loc="(130,40)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="CLK"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(340,630)" name="AND Gate"/>
+    <comp lib="1" loc="(310,380)" name="AND Gate"/>
+    <comp lib="5" loc="(420,410)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(350,70)" name="Tunnel">
+      <a name="label" val="D2"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(250,720)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="label" val="RCO"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(250,40)" name="Pin">
+    <comp lib="0" loc="(530,70)" name="Pin">
       <a name="facing" val="west"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="LD"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q2"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(90,720)" name="Tunnel">
-      <a name="label" val="D3"/>
+    <comp lib="7" loc="(594,132)" name="Text">
+      <a name="text" val="输出引脚"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(310,340)" name="AND Gate"/>
+    <comp lib="1" loc="(160,460)" name="NOT Gate">
       <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(220,100)" name="Tunnel">
+      <a name="label" val="ENP"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="5" loc="(420,590)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(170,670)" name="AND Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(250,570)" name="XOR Gate">
+      <a name="negate1" val="true"/>
     </comp>
     <comp lib="0" loc="(120,70)" name="Pin">
       <a name="facing" val="west"/>
@@ -327,35 +514,10 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="D0"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(210,40)" name="Tunnel">
-      <a name="label" val="LD"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(660,40)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Q1"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="7" loc="(250,129)" name="Text">
-      <a name="text" val="输入引脚"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(260,100)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="ENP"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="1" loc="(250,270)" name="AND Gate">
+      <a name="negate1" val="true"/>
     </comp>
     <comp lib="0" loc="(360,40)" name="Tunnel">
-      <a name="label" val="CLR"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(210,70)" name="Tunnel">
-      <a name="label" val="D1"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(90,280)" name="Tunnel">
       <a name="label" val="CLR"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
@@ -365,22 +527,29 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="Q0"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(120,100)" name="Pin">
+    <comp lib="0" loc="(400,70)" name="Pin">
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="D3"/>
+      <a name="label" val="D2"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(110,920)" name="Tunnel">
-      <a name="label" val="ENT"/>
+    <comp lib="1" loc="(110,230)" name="NOT Gate">
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(490,70)" name="Tunnel">
-      <a name="label" val="Q2"/>
+    <comp lib="0" loc="(620,40)" name="Tunnel">
+      <a name="label" val="Q1"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(220,100)" name="Tunnel">
-      <a name="label" val="ENP"/>
+    <comp lib="0" loc="(420,410)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Q1"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="5" loc="(420,320)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(90,530)" name="Tunnel">
+      <a name="label" val="D2"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(400,100)" name="Pin">
@@ -389,78 +558,28 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="ENT"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(490,40)" name="Tunnel">
-      <a name="label" val="Q0"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(500,100)" name="Tunnel">
-      <a name="label" val="RCO"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(350,70)" name="Tunnel">
-      <a name="label" val="D2"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(70,70)" name="Tunnel">
-      <a name="label" val="D0"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
     <comp lib="0" loc="(660,70)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Q3"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(360,100)" name="Tunnel">
-      <a name="label" val="ENT"/>
+    <comp lib="1" loc="(160,550)" name="NAND Gate">
       <a name="labelfont" val="Dialog plain 12"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
     </comp>
-    <comp lib="0" loc="(670,690)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Q3"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(90,460)" name="Tunnel">
-      <a name="label" val="D1"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(680,430)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Q1"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(530,70)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Q2"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(90,240)" name="Tunnel">
-      <a name="label" val="LD"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(70,100)" name="Tunnel">
-      <a name="label" val="D3"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(90,330)" name="Tunnel">
-      <a name="label" val="D0"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(680,300)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Q0"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="7" loc="(594,132)" name="Text">
-      <a name="text" val="输出引脚"/>
-      <a name="font" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="0" loc="(130,40)" name="Pin">
+    <comp lib="1" loc="(310,520)" name="AND Gate"/>
+    <comp lib="0" loc="(250,70)" name="Pin">
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="CLK"/>
+      <a name="label" val="D1"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(310,430)" name="AND Gate"/>
+    <comp lib="0" loc="(80,40)" name="Tunnel">
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(400,40)" name="Pin">
       <a name="facing" val="west"/>
@@ -468,60 +587,118 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="CLR"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(620,40)" name="Tunnel">
-      <a name="label" val="Q1"/>
+    <comp lib="1" loc="(310,610)" name="AND Gate"/>
+    <comp lib="0" loc="(500,100)" name="Tunnel">
+      <a name="label" val="RCO"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(670,560)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Q2"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="7" loc="(359,195)" name="Text">
-      <a name="text" val="提示：使用独立逻辑门实现4位二进制同步计数器，禁止直接使用计数器组件。"/>
+    <comp lib="7" loc="(250,129)" name="Text">
+      <a name="text" val="输入引脚"/>
       <a name="font" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(250,70)" name="Pin">
+    <comp lib="0" loc="(210,40)" name="Tunnel">
+      <a name="label" val="LD"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(210,70)" name="Tunnel">
+      <a name="label" val="D1"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(90,700)" name="Tunnel">
+      <a name="label" val="ENP"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(260,100)" name="Pin">
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
+      <a name="label" val="ENP"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(90,440)" name="Tunnel">
       <a name="label" val="D1"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(90,230)" name="Tunnel">
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(490,40)" name="Tunnel">
+      <a name="label" val="Q0"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(90,620)" name="Tunnel">
+      <a name="label" val="D3"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(70,100)" name="Tunnel">
+      <a name="label" val="D3"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(120,100)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="D3"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(620,70)" name="Tunnel">
       <a name="label" val="Q3"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(80,40)" name="Tunnel">
-      <a name="label" val="CLK"/>
+    <comp lib="0" loc="(490,70)" name="Tunnel">
+      <a name="label" val="Q2"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(90,590)" name="Tunnel">
-      <a name="label" val="D2"/>
+    <comp lib="0" loc="(90,320)" name="Tunnel">
+      <a name="label" val="CLR"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(540,100)" name="Pin">
+    <comp lib="1" loc="(340,360)" name="AND Gate"/>
+    <comp lib="1" loc="(250,660)" name="XOR Gate">
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(200,740)" name="NOT Gate">
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(660,40)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="RCO"/>
+      <a name="label" val="Q1"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(110,880)" name="Tunnel">
-      <a name="label" val="ENP"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
+    <comp lib="1" loc="(110,320)" name="Buffer"/>
     <comp lib="7" loc="(353,160)" name="Text">
       <a name="text" val="请勿修改引脚名称、电路名称及电路封装外观"/>
       <a name="font" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(90,210)" name="Tunnel">
-      <a name="label" val="CLK"/>
+    <comp lib="0" loc="(90,350)" name="Tunnel">
+      <a name="label" val="D0"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp lib="0" loc="(400,70)" name="Pin">
+    <comp lib="0" loc="(250,40)" name="Pin">
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="D2"/>
+      <a name="label" val="LD"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="1" loc="(340,540)" name="AND Gate"/>
+    <comp lib="5" loc="(420,500)" name="D Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="1" loc="(250,720)" name="NAND Gate">
+      <a name="inputs" val="5"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+      <a name="negate3" val="true"/>
+      <a name="negate4" val="true"/>
+    </comp>
+    <comp lib="1" loc="(210,560)" name="AND Gate"/>
+    <comp lib="1" loc="(210,470)" name="AND Gate"/>
+    <comp lib="7" loc="(359,195)" name="Text">
+      <a name="text" val="提示：使用独立逻辑门实现4位二进制同步计数器，禁止直接使用计数器组件。"/>
+      <a name="font" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(340,450)" name="AND Gate"/>
   </circuit>
 </project>
