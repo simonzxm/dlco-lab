@@ -384,7 +384,6 @@
     <wire from="(200,1740)" to="(280,1740)"/>
     <wire from="(320,1760)" to="(320,1770)"/>
     <wire from="(320,1790)" to="(320,1800)"/>
-    <wire from="(320,1810)" to="(340,1810)"/>
     <wire from="(320,1800)" to="(320,1810)"/>
     <wire from="(330,1660)" to="(330,1670)"/>
     <wire from="(610,380)" to="(650,380)"/>
@@ -499,6 +498,7 @@
     <wire from="(540,490)" to="(550,490)"/>
     <wire from="(610,320)" to="(620,320)"/>
     <wire from="(640,510)" to="(650,510)"/>
+    <wire from="(320,1810)" to="(360,1810)"/>
     <comp lib="0" loc="(130,370)" name="Tunnel">
       <a name="width" val="4"/>
       <a name="label" val="HH0"/>
@@ -589,9 +589,6 @@
     <comp lib="4" loc="(210,1390)" name="Comparator">
       <a name="width" val="4"/>
       <a name="mode" val="unsigned"/>
-    </comp>
-    <comp lib="1" loc="(360,1810)" name="NOT Gate">
-      <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(150,310)" name="Tunnel">
       <a name="label" val="CLK"/>
